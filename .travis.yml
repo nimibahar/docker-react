@@ -1,0 +1,9 @@
+sudo : required
+services:
+  - docker
+
+before_install:
+  - docker build -t nimibahar/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run nimibahar/docker-react npm run test -- --coverage
