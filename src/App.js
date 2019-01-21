@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit me on http://docker-env.ur7xrdw66i.us-east-1.elasticbeanstalk.com/ 
+            Checkout this out: staging url: http://docker-env.ur7xrdw66i.us-east-1.elasticbeanstalk.com/ 
           </a>
         </header>
       </div>
